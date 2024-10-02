@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 20%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+}
+
+table tr.linhaPrincipalColuna{
+    background-color: black;
+    color: white;
+   padding: 5px;
+   border-collapse: collapse;
+}
+table td{
+    border-bottom: 1px solid rgb(255, 253, 253);
+}
+
+#adicionarAluno label{
+    display: block;
+    margin: 10px;
+}
+    
