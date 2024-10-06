@@ -15,18 +15,13 @@
     <main>
         <section id="alunosCadastrados">
             <h2>Alunos Cadastrados</h2>
-            <table width="100%">
+            <table width="100%" id="tabelaCadastrados">
                 <tr class="linhaPrincipalColuna">
                     <td  >Nome</td>
                     <td>Idade</td>
                     <td>Curso</td>
                 </tr>
 
-                <tr>
-                    <td >teste01</td>
-                    <td>texte02</td>
-                    <td>teste03</td>
-                </tr>
             </table>
 
         </section>
@@ -36,11 +31,12 @@
             
             <label for="idade">Idade: <input width="100%" id="idade" type="text"></label>
             <label for="curso">Curso: <input  id="curso" type="text"></label>
-            <input type="button" value="submit">
+            <input type="button" value="Enviar" onclick="adicionarAluno()">
          </section>
     </main>
     <footer>
-        2024 Curso Online
+        <span>&#64;2024 - Curso Online</span>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
